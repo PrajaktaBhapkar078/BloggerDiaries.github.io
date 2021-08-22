@@ -62,6 +62,11 @@ export default function Login() {
           Register
         </Link>
       </button>
+      <button className="loginAdminButton">
+        <Link className="link" to="/admin">
+         AdminLogin
+        </Link>
+      </button>
     </div>
 
   );

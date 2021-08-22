@@ -14,7 +14,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useState } from "react";
 import "firebase/analytics";
 import "firebase/auth";
-
+import Admin from './pages/admin/admin'
 function App() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -42,6 +42,7 @@ function App() {
         <Route path="/about"><div><TopBar /><About/></div></Route>
         <Route path="/contact"><div><TopBar /><Contact/></div></Route>
         <Route path="/stats"><div><TopBar /><BarChart/></div></Route>
+        <Route path="/admin">{<div><Admin /></div>}</Route>
         <Route path="/post/:postId">
           <Single />
         </Route>

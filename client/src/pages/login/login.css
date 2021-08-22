@@ -59,3 +59,15 @@
   color: white;
   border-radius: 10px;
 }
+.loginAdminButton {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
