@@ -1,0 +1,16 @@
+.chatbot-background1{
+  padding: 15px;
+  border-radius: 3px;
+  background-color: #f1e6e6;
+  margin-top: 10px;
+}
+
+.flashcard-button {
+  background: transparent;
+  padding: 8px;
+  border-radius: 3px;
+  border-color: blue;
+  margin: 5px;
+  width: 150px;
+}
+

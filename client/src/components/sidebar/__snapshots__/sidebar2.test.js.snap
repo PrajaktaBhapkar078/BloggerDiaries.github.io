@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test of Sidebar 1`] = `
+<div
+  className="sidebar"
+>
+  <div
+    className="sidebarItem"
+  >
+    <div
+      className="heading"
+    >
+      <h2>
+        Read, Write and Expand Your World.
+      </h2>
+    </div>
+    <div
+      className="animation"
+    >
+      <iframe
+        allow="autoplay; fullscreen"
+        allowfullscreen=""
+        frameborder="0"
+        height="100%"
+        positioning="relative"
+        src="https://player.vimeo.com/video/467834328?api=1&background=1&mute=1&loop=1"
+        width="100%"
+      />
+    </div>
+  </div>
+  <div
+    className="sidebarItem"
+  >
+    <span
+      className="sidebarTitle"
+    >
+      CATEGORIES
+    </span>
+    <ul
+      className="sidebarList"
+    >
+      <li
+        className="sidebarListItem"
+      >
+        <a
+          href="/?cat=Health"
+          onClick={[Function]}
+        >
+          Health
+        </a>
+      </li>
+      <li
+        className="sidebarListItem"
+      >
+        <a
+          href="/?cat=Sports"
+          onClick={[Function]}
+        >
+          Sports
+        </a>
+      </li>
+      <li
+        className="sidebarListItem"
+      >
+        <a
+          href="/?cat=Music"
+          onClick={[Function]}
+        >
+          Music
+        </a>
+      </li>
+      <li
+        className="sidebarListItem"
+      >
+        <a
+          href="/?cat=Food"
+          onClick={[Function]}
+        >
+          Food
+        </a>
+      </li>
+      <li
+        className="sidebarListItem"
+      >
+        <a
+          href="/?cat=Technology"
+          onClick={[Function]}
+        >
+          Technology
+        </a>
+      </li>
+      <li
+        className="sidebarListItem"
+      >
+        <a
+          href="/?cat=Others"
+          onClick={[Function]}
+        >
+          Others
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
